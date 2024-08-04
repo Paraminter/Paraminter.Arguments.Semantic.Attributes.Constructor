@@ -3,7 +3,7 @@
 using Microsoft.CodeAnalysis;
 
 /// <summary>Represents semantic data about an attribute constructor argument.</summary>
-public interface ISemanticAttributeNamedArgumentData
+public interface ISemanticAttributeConstructorArgumentData
 {
     /// <summary>The attribute constructor argument.</summary>
     public abstract TypedConstant Argument { get; }
